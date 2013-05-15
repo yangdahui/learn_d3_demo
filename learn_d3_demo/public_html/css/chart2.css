@@ -1,0 +1,36 @@
+/* 
+    Document   : chart2
+    Created on : May 13, 2013, 9:47:10 PM
+    Author     : yanghui
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+#interchart {
+    height: 500px;
+    width: 600px;
+    border: 1px solid greenyellow;
+    background: black;
+}
+
+
+#downchart {
+    height: 500px;
+    width: 600px;
+    border: 1px solid red;
+}
+
+#topchart {
+
+}

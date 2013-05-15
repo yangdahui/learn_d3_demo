@@ -1,0 +1,98 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test and learn d3 code</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        
+        <link href="css/chart2.css" rel="stylesheet">
+
+        <style>
+
+            
+            .node {
+              stroke: #fff;
+              stroke-width: 1.5px;
+            }
+
+            .link {
+              stroke: #999;
+              stroke-opacity: .6;
+            }
+
+        </style>
+
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+        
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        
+        <!-- Fav and touch icons -->
+
+    </head>
+    <body>
+        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#">my D3 place</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="chart1.html">Chart1</a></li>
+                            <li class="active"><a href="chart2.html">Chart2</a></li>
+                            <li><a href="testchart.html">Test</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h1>chart2</h1>
+            <p>All you get is this message and a barebones HTML document.</p>
+
+            
+            <div class="row">
+                <div class="span6">
+                    <div id="interchart">
+                       <script type="text/javascript" src="js/forcednetwork.js"></script>                
+                    </div>
+                </div>
+                
+                <div class="span6">
+                    <div id="downchart">
+                       <script type="text/javascript" src="js/forcednetwork2.js"></script>                
+                    </div>
+                </div>  
+            </div>
+
+
+        </div> <!-- /container -->
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>
