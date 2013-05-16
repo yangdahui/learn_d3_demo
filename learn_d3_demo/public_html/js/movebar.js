@@ -4,7 +4,7 @@
  */
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 600 - margin.left - margin.right,
+    width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 var formatPercent = d3.format(".0%");
@@ -83,7 +83,7 @@ d3.tsv("data/bardata.tsv", function(error, data) {
         .map(function(d) { return d.letter; }))
         .copy();
 
-    var transition = svg.transition().duration(750),
+    var transition = svg.transition().duration(100),
         delay = function(d, i) { return i * 50; };
 
     transition.selectAll(".bar")

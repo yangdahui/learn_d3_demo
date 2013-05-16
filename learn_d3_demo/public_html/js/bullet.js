@@ -11,7 +11,7 @@ d3.bullet = function() {
       ranges = bulletRanges,
       markers = bulletMarkers,
       measures = bulletMeasures,
-      width = 380,
+      width = 180,
       height = 30,
       tickFormat = null;
 

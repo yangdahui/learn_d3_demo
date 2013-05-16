@@ -1,0 +1,8 @@
+[ 
+    {"title": "AHI", "subtitle": "Apnea Hypopnea Index", "ranges": [5, 15, 30], "measures": [32], "markers": [32]},
+    {"title": "AI", "subtitle": "Arousal Index", "ranges": [0,5,50], "measures": [48], "markers": [48]},
+    {"title": "Sleep Efficiency", "subtitle": "%", "ranges": [0, 85, 100], "measures": [54.2], "markers": [54.2]},
+    {"title": "REM Latency", "subtitle": "mins", "ranges": [0,90,110], "measures": [322], "markers": [322]},
+    {"title": "Sleep Latency", "subtitle": "mins", "ranges": [0,30], "measures": [31.5], "markers": [31.5]}
+     
+]

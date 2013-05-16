@@ -3,16 +3,22 @@
  * and open the template in the editor.
  */
 
+
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 var margin = {top: 5, right: 40, bottom: 20, left: 120},
-    width = 300 - margin.left - margin.right,
+    width = 460 - margin.left - margin.right,
     height = 40 - margin.top - margin.bottom;
 
 var chart = d3.bullet()
     .width(width)
     .height(height);
 
-d3.json("data/bulletsdata.json", function(error, data) {
-  var svg = d3.select("#bloodchartposition").selectAll("svg")
+d3.json("data/sleepdata.json", function(error, data) {
+  var svg = d3.select("#sleepchart").selectAll("svg")
       .data(data)
     .enter().append("svg")
       .attr("class", "bullet")
@@ -34,16 +40,6 @@ d3.json("data/bulletsdata.json", function(error, data) {
       .attr("class", "subtitle")
       .attr("dy", "1em")
       .text(function(d) { return d.subtitle; });
-      
-  title.append("text")
-        .attr("class","measurevalue")
-        .attr("transform", "translate(340," + height / 2 + ")")
-        .text(function(d) { return d.measures; });
-
-  title.append("circle")
-        .attr("r",8)
-        .style("fill","red")
-        .attr("transform", "translate(345," + height / 2 + ")");     
 
   d3.selectAll("button").on("click", function() {
     svg.datum(randomize).call(chart.duration(1000)); // TODO automatic transition
