@@ -13,13 +13,13 @@ and open the template in the editor.
 
         <!-- Le styles -->
         <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/testchart.css" rel="stylesheet">
-        <style>
-            body {
-                padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-            }
-        </style>
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        
+        <link href="css/testchart.css" rel="stylesheet">
+        <link href="css/bulletstyle.css" rel="stylesheet">
+        <style>
+
+        </style>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -53,8 +53,8 @@ and open the template in the editor.
 
         <div class="container">
 
-            <h1>testchart</h1>
-            <p> d3.selectAll("p").style("color", "red")<br> All you get is this message and a barebones HTML document.</p>
+            <h4>testchart</h4>
+<!--            <p> d3.selectAll("p").style("color", "red")<br> All you get is this message and a barebones HTML document.</p>
             <p> d3.selectAll("p").style("color", "red")</p>
             <p id="idp"> d3.select("#idp").style("color", "blue")</p>
 
@@ -62,7 +62,19 @@ and open the template in the editor.
             <script>
                 d3.selectAll("p").style("color", "red");
                 d3.select("#idp").style("color", "blue");
-            </script>
+            </script>-->
+            
+            
+            <div class="row">                
+                <div class="span6">
+                    <div id="bloodchartposition">
+                        <button>Update</button>
+                        <script src="js/bullet.js"></script>
+                        <script src="js/bulletchart.js"></script>
+                    </div>
+                    
+                </div>               
+            </div>
             
         </div> <!-- /container -->
 

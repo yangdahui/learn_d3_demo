@@ -1,0 +1,30 @@
+/* 
+    Document   : bulletstyle
+    Created on : May 16, 2013, 10:07:26 AM
+    Author     : yangdahui <yangdahui@hotmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#bloodchartposition{
+    border: 1px solid black;
+    width: 600px;
+}
+
+.bullet { font: 10px sans-serif; }
+.bullet .marker .normal{ stroke: black; stroke-width: 3px; }
+.bullet .marker .abnormal{ stroke: red; stroke-width: 3px; }
+
+.bullet .tick line { stroke: #666; stroke-width: 0.5px; }
+.bullet .range.s0 { fill: #ffdc9d; } /* orange - abnormal */
+.bullet .range.s1 { fill: #ffff9d; } /* yellow - mild */
+.bullet .range.s2 { fill: #9dff9d; } /* green - normal */
+.bullet .range.s3 { fill: #c4c4ff;}  /* blue - below */
+.bullet .measure.s0 { fill: #626262; } /* */
+.bullet .measure.s1 { fill: #626262; } /* */
+.bullet .title { font-size: 14px; font-weight: bold; }
+.bullet .subtitle { fill: #999; }
