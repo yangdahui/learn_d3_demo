@@ -9,6 +9,8 @@ var dataset = [5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
 //Width and height
 var w = 500;
 var h = 100;
+
+//distance between bars
 var barPadding = 1;
 
 //Create SVG element
