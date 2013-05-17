@@ -3,10 +3,14 @@
  * and open the template in the editor.
  */
 
-var margin = {top: 5, right: 60, bottom: 15, left: 60},
-    width = 400 - margin.left - margin.right,
+var margin = {top: 5, right: 60, bottom: 15, left: 100},
+    width = 450 - margin.left - margin.right,
     height = 35 - margin.top - margin.bottom;
-var textposition = width +40;
+    
+// text of measurement is 40 right to the bar
+var textposition = width + 40;
+
+// indicator is 15 right to the text
 var indicatorposition = textposition + 15;
 
 var chart = d3.bullet()

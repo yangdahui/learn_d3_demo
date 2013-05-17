@@ -7,6 +7,10 @@ var padding=150;
 var w = GetWidth()-padding,
     h = GetHeight()-padding,
     fill = d3.scale.category10();
+    
+//var w=document.getElementById('#interchart').clientHeight,
+//    h=document.getElementById('#interchart').clientWidth,
+//    fill = d3.scale.category10();
 
 var vis = d3.select("#interchart")
   .append("svg:svg")
@@ -50,7 +54,7 @@ var draw = function(json) {
 
   var node = vis.selectAll("circle.node")
       .data(json.nodes)
-    .enter().append("svg:circle")
+    .enter().append("svg:circle")     
       .attr("class", "node")
       .attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; })
@@ -58,9 +62,14 @@ var draw = function(json) {
       .style("fill", function(d) { return fill(d.group); })
       .call(force.drag);
 
+vis.append("svg:text")
+      .attr("text-anchor", "middle")
+      .attr("class","nodenametext")
+      .text(function(d) { return "node text"; });
+      
   node.append("svg:title")
       .text(function(d) { return d.name; });
-
+      
   vis.style("opacity", 1e-6)
     .transition()
       .duration(1)
