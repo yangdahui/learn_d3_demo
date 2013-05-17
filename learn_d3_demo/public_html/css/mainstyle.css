@@ -11,9 +11,19 @@ root {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
     padding-top: 60px; 
+}
+
+h1,h2,h3,h4 {
+    font-family: "Proxima Nova Light",Arial,sans-serif;
+    color: #343333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
 }
 
 #upperchart {
@@ -21,27 +31,27 @@ body {
 }
 
 .axis text {
-  font: 10px sans-serif;
+    font: 10px sans-serif;
 }
 
 .axis path,
 .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
 .bar {
-  fill: steelblue;
-  fill-opacity: .9;
+    fill: steelblue;
+    fill-opacity: .9;
 }
 
 .x.axis path {
-  display: none;
+    display: none;
 }
 
 label {
-  position: relative;
-  top: 10px;
-  right: 10px;
+    position: relative;
+    top: 10px;
+    right: 10px;
 }

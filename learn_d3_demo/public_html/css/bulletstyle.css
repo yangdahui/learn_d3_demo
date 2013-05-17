@@ -12,12 +12,10 @@ root {
 
 #bloodchartposition{
     border: 1px solid black;
-    width: 500px;
 }
 
 #sleepchart {
     border: 1px solid black;
-    width: 500px;
 }
 
 .bullet { font: 10px sans-serif; }
@@ -34,6 +32,6 @@ root {
 .bullet .measure.s0 { fill: #626262; } /* */
 .bullet .measure.s1 { fill: #626262; } /* */
 /*title*/
-.bullet .title { font-size: 14px; font-weight: bold; }
+.bullet .title { font-size: 16px; font-weight: bold; }
 .bullet .subtitle { fill: #999; }
-.bullet .measurevalue { font-size: 14px; font-weight: bold; }
+.bullet .measurevalue { font-size: 16px; font-weight: bold; }
