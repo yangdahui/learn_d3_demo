@@ -1,0 +1,107 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test and learn d3 code</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">        
+        <link href="css/chart3.css" rel="stylesheet">
+
+        <style>
+
+        </style>
+
+        <script src="js/libs/d3-3.0.1/d3.v3.min.js"></script>
+        <script src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="index.html">my D3 place</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="chart1.html">Chart1</a></li>
+                            <li><a href="chart2.html">Chart2</a></li>
+                            <li class="active"><a href="chart3.html">Chart3</a></li>
+                            <li><a href="testchart.html">Test</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container"> 
+            <div class="mini-layout fluid">
+                <div class="mini-layout-sidebar">
+
+                    <!-- TODO: add toolbox controller-->
+                    <span class="label label-success">Tool Box</span>
+                    
+                    <ul class="nav nav-list">
+                        <li class="nav-header">Sidebar</li>
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="nav-header">Sidebar</li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                   <hr> 
+                   <!--  inline check box-->
+                    <label class="checkbox inline">
+                        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                    </label>
+                    <label class="checkbox inline">
+                        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                    </label>
+                    <label class="checkbox inline">
+                        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                    </label>
+                                        
+                    <hr>
+                    <input type="color">color <br>
+                    <input type="date">date <br>
+                    <input type="range">range <br>
+                    <input type="submit">submit <br>
+                    <input type="radio">radio <br>
+                    
+                </div>
+
+                <div class="mini-layout-body">
+
+
+                </div>
+            </div>                  
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+    </body>
+</html>
