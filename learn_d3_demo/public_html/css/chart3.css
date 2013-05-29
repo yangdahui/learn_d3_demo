@@ -14,21 +14,15 @@ body {
     padding-top: 50px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
-/***********************************************/
-/* Layout Divs                                 */
-/***********************************************/
-
-#interchart {
-
-}
-
-
 div {
     display: block;
 }
 
-/* Mini layout previews
--------------------------------------------------- */
+
+/***********************************************/
+/* Layout                                      */
+/***********************************************/
+
 .mini-layout {
   border: 1px solid #ddd;
   -webkit-border-radius: 6px;
@@ -74,12 +68,15 @@ div {
     border: 1px #ddd solid;
 }
 
+/* TEXT TO SHOW THE SLIDER RANGE*/
 #amount {
     border: 0;
     color: #f6931f;
     font-weight: bold;
     font-size: 20px;
 }
+
+/* slider */
 
 #slider-range{
     width:200px;
@@ -88,6 +85,7 @@ div {
     background: #729fcf;
 }
 
+/* slider with ticks */
 .g-top-slider,
 .g-slider-ticks {
   width: 200px;
@@ -100,6 +98,7 @@ div {
   height: 4px;
 }
 
+/* slider ticks, number labels -  */
 .g-slider-ticks .g-tick-label {
   position: absolute;
   top: 6px;
