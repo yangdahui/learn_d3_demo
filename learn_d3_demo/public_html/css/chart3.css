@@ -74,4 +74,38 @@ div {
     border: 1px #ddd solid;
 }
 
+#amount {
+    border: 0;
+    color: #f6931f;
+    font-weight: bold;
+    font-size: 20px;
+}
 
+#slider-range{
+    width:200px;
+    float: left;
+    background-color: #729fcf;
+    background: #729fcf;
+}
+
+.g-top-slider,
+.g-slider-ticks {
+  width: 200px;
+  position: relative;
+}
+
+.g-slider-ticks .g-tick {
+  position: absolute;
+  border-left: solid 1px #ccc;
+  height: 4px;
+}
+
+.g-slider-ticks .g-tick-label {
+  position: absolute;
+  top: 6px;
+  text-align: center;
+  width: 20px;
+  left: -10px;
+  font-size: 9px;
+  color: #ccc;
+}
