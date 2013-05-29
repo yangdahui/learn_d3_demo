@@ -35,7 +35,7 @@ function redraw() {
 
 var draw = function(json) {
   var force = d3.layout.force()
-      .charge(-120)
+      .charge(-100)
       .linkDistance(50)
       .nodes(json.nodes)
       .links(json.links)
