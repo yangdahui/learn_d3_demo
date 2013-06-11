@@ -1,0 +1,39 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>blank page </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Le styles -->
+        <link href="css/matrix.css" rel="stylesheet">
+
+        <style>
+
+        </style>
+
+        <script src="js/libs/d3-3.0.1/d3.v3.min.js"></script>
+
+    </head>
+    <body>
+
+        <h1>Co-occurrence Matrix</h1>
+        
+        <div id="thischart">
+            <script type="text/javascript" src="js/matrix.js"></script>  
+        </div>
+
+        <aside style="margin-top:80px;">
+            <p>Order: <select id="order">
+                    <option value="name">by Name</option>
+                    <option value="count">by Frequency</option>
+                    <option value="group">by Cluster</option>
+                </select>
+            <p>Built with <a href="http://d3js.org/">d3.js</a>.
+        </aside>
+
+    </body>
+</html>
