@@ -16,7 +16,11 @@ and open the template in the editor.
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         
         <link href="css/testchart.css" rel="stylesheet">
-        <link href="css/bulletstyle.css" rel="stylesheet">
+<!--        <link href="css/bulletstyle.css" rel="stylesheet">-->
+        <link href="css/wordtree.css" rel="stylesheet">
+        
+        <link href="css/stackedareachart.css" rel="stylesheet">
+        
         <style>
 
         </style>
@@ -25,7 +29,12 @@ and open the template in the editor.
         <!--[if lt IE 9]>
           <script src="../assets/js/html5shiv.js"></script>
         <![endif]-->
-        <script src="js/libs/d3-3.0.1/d3.v3.min.js"></script>
+        
+<!--        <script src="js/libs/d3-3.0.1/d3.v3.min.js"></script>
+        <script src="js/libs/d3-3.0.1/d3.layout.js"></script>
+        -->
+        <script src="http://d3js.org/d3.v3.js"></script>
+        
 
         <!-- Fav and touch icons -->
     </head>
@@ -53,9 +62,31 @@ and open the template in the editor.
         </div>
 
         <div class="container">
-
+<!--
             <h4>testchart</h4>
-<!--            <p> d3.selectAll("p").style("color", "red")<br> All you get is this message and a barebones HTML document.</p>
+            
+            
+            <div class="row">
+                <div class="span12" >         
+                    <div id="wordtreeposition">
+                        <script src="js/wordtree.js"></script>
+                    </div>
+                </div>
+                
+            </div>-->
+            
+            <h4>stackedareachart</h4>
+            
+           <div class="row">
+                <div class="span12" >         
+                    <div id="stackedareachart">
+                        <script src="js/stackedareachart.js"></script>
+                    </div>
+                </div>               
+            </div>
+            
+            
+<!--        <p> d3.selectAll("p").style("color", "red")<br> All you get is this message and a barebones HTML document.</p>
             <p> d3.selectAll("p").style("color", "red")</p>
             <p id="idp"> d3.select("#idp").style("color", "blue")</p>
 
@@ -65,9 +96,9 @@ and open the template in the editor.
                 d3.select("#idp").style("color", "blue");
             </script>-->
             
-            
-            <div class="row"> 
-                <!--profile-->
+<!--       bullet chart     -->
+<!--            <div class="row"> 
+                profile
                 <div class="span2" >
                     <img src="img/profileholder.gif" alt="">
                     <p>First M. LastName</p>
@@ -79,7 +110,7 @@ and open the template in the editor.
                         <span class="label label-info">White</span>
                     <br>
                 </div>
-                <!-- chart -->
+                 chart 
                 <div class="span5">
                     <div id="bloodchartposition">
                         <button>Update</button>
@@ -90,11 +121,11 @@ and open the template in the editor.
                 
                <div class="span5">
                     <div id="sleepchart">
-<!--                        <script src="js/sleepbullets.js"></script>-->
+                        <script src="js/sleepbullets.js"></script>
                     </div>
                     
                 </div> 
-            </div>
+            </div>-->
             
         </div> <!-- /container -->
 

@@ -12,7 +12,7 @@ for (var i = 0; i < 25; i++) {           //Loop 25 times
     ramdataset.push(newNumber);             //Add new number to array
 }
 
-d3.select("#barchartpoisition").selectAll("div")
+d3.select("#testchart").selectAll("div")
         .data(ramdataset)
         .enter()
         .append("div")

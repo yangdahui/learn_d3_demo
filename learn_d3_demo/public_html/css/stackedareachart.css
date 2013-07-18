@@ -1,0 +1,27 @@
+/* 
+    Document   : stackedareachart
+    Created on : Jul 11, 2013, 3:28:12 PM
+    Author     : Hui Yang <hyang@i-a-i.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.browser text {
+  text-anchor: end;
+}
+
+#stackedareachart{
+    height: 500px;
+    width: 1200x;
+}
